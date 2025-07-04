@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Colorhunt</title>
+    <link rel="stylesheet" href="./asset/css/styles.css">
+</head>
+<body>
+    <button id="toggle-dark-mode">Toggle Dark Mode</button>
+  <header>
+    <h1>Colorhunt Clone</h1>
+    <nav>
+      <button class="tab active" data-tab="all">Tất cả</button>
+      <button class="tab" data-tab="favorite">Yêu thích</button>
+      <button class="tab" data-tab="frequently-used">Hay dùng</button>
+    </nav>
+  </header>
+
+  <form id="add-palette-form">
+    <input type="text" id="palette-name" placeholder="Tên palette" required />
+    <input type="text" id="color1" placeholder="Màu 1 (VD: FF5733)" required />
+    <input type="text" id="color2" placeholder="Màu 2" required />
+    <input type="text" id="color3" placeholder="Màu 3" required />
+    <input type="text" id="color4" placeholder="Màu 4" required />
+    <button type="submit">Thêm Palette</button>
+  </form>
+
+  <div id="palettes-container"></div>
+
+
+    <script src="./asset/js/main.js">
+        // JavaScript code for handling palette functionality
+    </script>
+</body>
+</html>
